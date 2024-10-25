@@ -127,6 +127,32 @@ description=
 
           <Col md={4} className="project-card">
             <ProjectCard
+             imgPath={suicide}
+             isBlog={false}
+             videoLink="https://www.youtube.com/embed/V9EYRp-qMTA"
+             title="FPS-OverWatchStyle"
+             description=
+             {<>
+               This is a shooting project for copying the little bit style of over watch. This is 
+               my first project in learnign which consist of abilities of character damage systemon 
+               dummies, it is still in progress will be get improved by time and got updated accordingly<br />
+               <strong>Tech Stack:</strong><br />
+                   - Unreal
+                   - C++
+                   - Blue Print
+                   - Niagara Particles system
+                   - Cascade Particle system
+                   </>}
+             
+            // ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
+             // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+           />
+              
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={suicide}
               isBlog={false}
               videoLink="https://www.youtube.com/embed/HiZBZ_ydkoQ"
