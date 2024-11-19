@@ -31,9 +31,9 @@ function Projects() {
 "               
 description=
 {<>
-  It’s a Webgl Game. It is a multiplayer shooting game with a unique concept in which player
-               and ai characters are gnomes. As a game developer i worked in this game fetching data from API,
-                Multiplayer functionality, Game Play Look and Feel, Game Modes, Google SSO, Twitter SSO.<br />
+  Gnome Wars is a fast-paced multiplayer FPS built in Unity and powered by the Mirror networking engine. Designed for WebGL, the game offers seamless browser-based play with smooth integration of CrazyGames for ad support. Players can log in to create or join private rooms, battle it out in a gnome-themed world, and access a dynamic in-game economy. The game includes a fully developed shop system, allowing players to purchase unique skins and weapons, with multiple choices tailored to different playstyles.
+
+Built on a Node.js backend, Gnome Wars ensures a stable multiplayer experience with custom matchmaking. With a blend of lighthearted characters and intense combat, players take control of gnomes and engage in thrilling battles, offering a fresh and quirky take on FPS gameplay. Whether customizing your gnome with skins or unlocking new weapons, Gnome Wars delivers a unique and fun experience for every player.<br />
 <strong>Tech Stack:</strong><br />
 - Unity
 - C#
@@ -56,11 +56,11 @@ description=
               title="Phonics Zoom"
               description=
                 {<>
-                  Its a 2d Learning App with multiple mini games in it.
-               It is a client game for his school in which we made different games to teach students spelling paragraph
-                writing and many more games like this as  game developer i have created many games in this i also fetched
-                apis from the web portal where teachers can update the spelling
-                lists and also i posts the result of the students back to portal.<br />
+                  Phonics Zoom is an educational 2D learning app designed for children, aimed at improving language and literacy skills through a series of interactive mini-games. Built in Unity, the app features a variety of educational games that focus on spelling, alphabet tracing, paragraph writing, memory testing, and phonics, providing a comprehensive learning experience for kids of all ages.
+
+The app dynamically fetches data via APIs from a PHP-based web portal, which curates spelling lists and content tailored to specific age groups. This allows for customized learning experiences, ensuring the right words and challenges are presented to each child. The web portal also offers weekly challenge lists, which are randomly assigned to one of 27 different mini-games, adding an element of surprise and engagement to the learning journey.
+
+With its playful design and structured learning content, Phonics Zoom helps kids develop essential language skills while keeping the experience fun and interactive.<br />
       <strong>Tech Stack:</strong><br />
           - Unity
           - C#
@@ -101,15 +101,17 @@ description=
             <ProjectCard
              imgPath={suicide}
              isBlog={false}
-             videoLink="https://www.youtube.com/embed/pIH7rIzS_U4"
+             videoLink="https://www.youtube.com/embed/1CX2esijNjQ"
              title="Ai Layer Moba"
              description=
              {<>
-               It’s a WebGL Game. It's  just a game in progress right now.
-               It will be a game like dota in which we have characters with their special abilities
-               and in game level progression and within game level progress characters
-                also transform shape.In this we have blockchain wires sso wallet
-                integration and many other features.<br />
+               AI Layer MOBA is an exciting multiplayer game currently under development, combining strategic combat and dynamic gameplay. Built in Unity with Photon Quantum for networking and powered by a Node.js backend, the game features 3v3 matchmaking using the Photon multiplayer system.
+
+Players can choose from three distinct character classes—Square (Tank), Circle (Fighter), and Triangle (Marksman)—each equipped with three unique abilities and a basic attack. The gameplay revolves around classic MOBA mechanics, including minion spawning, tower destruction, and base defense. Destructible barrels add an extra layer of strategy to each match.
+
+As the game progresses, players level up their characters, unlocking new abilities and enhancing their strengths. The goal is to destroy the opposing team's base while leveling up through team fights, tower destruction, and objective control.
+
+With strategic depth and fast-paced action, AI Layer MOBA promises an engaging experience for competitive gamers.<br />
                <strong>Tech Stack:</strong><br />
                    - Unity
                    - C#
