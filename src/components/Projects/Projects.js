@@ -131,13 +131,34 @@ With strategic depth and fast-paced action, AI Layer MOBA promises an engaging e
             <ProjectCard
              imgPath={suicide}
              isBlog={false}
-             videoLink="https://www.youtube.com/embed/V9EYRp-qMTA"
-             title="FPS-OverWatchStyle"
+             videoLink="https://www.youtube.com/embed/CD9bGARsrBg"
+             title="FPS Game Prototype"
              description=
              {<>
-               This is a shooting project for copying the little bit style of over watch. This is 
-               my first project in learnign which consist of abilities of character damage systemon 
-               dummies, it is still in progress will be get improved by time and got updated accordingly<br />
+               Overview:
+This game prototype is inspired by Overwatch 2, featuring a fast-paced, action-packed first-person shooter experience. Built in Unreal Engine, the project showcases advanced gameplay mechanics, unique abilities, and a polished user interface tailored for immersive combat.
+
+Key Features:
+
+Combat System:
+Basic attack mechanics allowing players to deal damage to dummies.
+Three dynamic abilities:
+Laser Attack: A precise, high-energy beam for focused damage.
+Grenade Throw: An explosive projectile for area damage.
+Upward Dash: A mobility skill for quick escapes or strategic positioning.
+Ultimate Ability:
+Transforms the character to a third-person view, unleashing a barrage of devastating lasers, amplifying combat intensity.
+Jetpack Functionality:
+Vertical traversal with fluid jetpack controls, enhancing mobility and strategy.
+User Interface & Controls:
+
+Intuitive and responsive User Interface (UI) designed for smooth gameplay.
+Fully implemented gamepad key mapping, allowing players to seamlessly navigate and activate abilities.
+Technical Highlights:
+
+Developed using Unreal Engine, emphasizing visually engaging environments and character animations.
+Aimed at balancing fun mechanics with prototypical FPS gameplay elements.
+This project demonstrates my ability to replicate AAA gameplay experiences while incorporating custom mechanics and UI functionality, showcasing my expertise in Unreal Engine and game development principles.<br />
                <strong>Tech Stack:</strong><br />
                    - Unreal
                    - C++
@@ -182,14 +203,11 @@ With strategic depth and fast-paced action, AI Layer MOBA promises an engaging e
               videoLink="https://www.youtube.com/embed/6clb09voJD0"
               title="Vampire Fall"
               description={<>
-                It is a multiplayer Player RPG game in vampire attacks the player and player has to defend himself and town and also build the town and it safety measures. <br />
+                Vampire Fall 3D is a captivating single-player RPG that immerses players in a richly detailed old-village setting. Embark on thrilling missions, unraveling a dark and mysterious storyline filled with engaging dialogues and choices. The game combines an atmospheric 3D world with a classic RPG feel, featuring immersive art that brings the haunted charm of an ancient village to life. With a deep dialogue system and quest-driven gameplay, Vampire Fall 3D invites players to explore, battle, and uncover the secrets of a world overshadowed by vampiric legends. <br />
                 <strong>Tech Stack:</strong><br />
                     - Unity
-                    - Node
-                    - C#
                     - Android
                     - IOS
-                    - Unet4
                     </>}
               // ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
