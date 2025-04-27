@@ -14,44 +14,43 @@ function Home2() {
     <Container fluid className="home-about-section" id="about">
       <Container>
         <Row>
-          <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
-            </h1>
-            <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
-              <br />
-              <br />I am fluent in classics like
-              <i>
-                <b className="purple"> C#, ThreeJS and Node. </b>
-              </i>
-              <br />
-              <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Unity Game Development </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Game Development Tools.
-                </b>
-              </i>
-              <br />
-              <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  C++
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> Working in Unreal Engine and Backend For Games</b>
-              </i>
-            </p>
-          </Col>
+        <Col md={8} className="home-about-description">
+  <h1 style={{ fontSize: "2.6em" }}>
+    LET ME <span className="purple"> INTRODUCE </span> MYSELF
+  </h1>
+  <p className="home-about-body">
+    I am passionate about <b className="purple">game development</b> and creating interactive experiences through technology.
+    <br />
+    <br />
+    I specialize in
+    <i>
+      <b className="purple"> Unity (C#)</b>, <b className="purple">Three.js</b>, and <b className="purple">Node.js</b>,
+    </i>
+    building everything from immersive gameplay to scalable multiplayer backends.
+    <br />
+    <br />
+    My areas of interest include developing new
+    <i>
+      <b className="purple"> multiplayer games</b>, exploring cutting-edge
+      <b className="purple"> game development tools</b>, and crafting engaging player experiences.
+    </i>
+    <br />
+    <br />
+    I also have hands-on experience working with
+    <i>
+      <b className="purple"> Unreal Engine</b>
+    </i>
+    for prototyping and
+    <b className="purple"> backend development</b> for games using
+    <i>
+      <b className="purple"> Node.js and C++</b>.
+    </i>
+    <br />
+    <br />
+    I am constantly learning and pushing my skills further to create games that are innovative, scalable, and fun!
+  </p>
+</Col>
+
           <Col md={4} className="myAvtar">
             <Tilt>
               <img src={myImg} className="img-fluid" alt="avatar" />
