@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
+
 import leaf from "../../Assets/Projects/leaf.png";
 import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
@@ -17,27 +18,33 @@ function Projects() {
         <h1 className="project-heading">
           My Recent <strong className="purple">Works</strong>
         </h1>
+
         <p style={{ color: "white" }}>
           Here are some of the projects I’ve worked on recently, showcasing my skills in game development and UI/UX design.
         </p>
+
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           {/* Moon Karts */}
           <Col md={4} className="project-card">
-  <ProjectCard
-    imgPath={chatify}
-    isBlog={false}
-    videoLink="https://www.youtube.com/7DBj2WDapJE"
-    title="Moon Karts"
-    description={
-      <>
-        <strong>Role:</strong> Developer<br />
-        Developed a real-money kart racing game incorporating Web3 staking, NFT rewards, and Photon Quantum multiplayer. Focused on bug fixing, optimizing performance, and implementing both backend and frontend systems.<br />
-        <strong>Tech Stack:</strong><br />
-        - Unity3D, Photon Quantum, Node.js, OAuth2.0, Docker, C#
-      </>
-    }
-  />
-</Col>
+            <ProjectCard
+              imgPath={chatify}
+              isBlog={false}
+              videoLinks={[
+                "https://www.youtube.com/embed/7DBj2WDapJE",
+                "https://www.youtube.com/embed/-FYtK0tjUKE",
+              ]}
+              title="Moon Karts"
+              description={
+                <>
+                  <strong>Role:</strong> Developer<br />
+                  Developed a real-money kart racing game incorporating Web3 staking, NFT rewards, and Photon Quantum multiplayer. Focused on bug fixing, optimizing performance, and implementing both backend and frontend systems.<br />
+                  <strong>Tech Stack:</strong><br />
+                  - Unity3D, Photon Quantum, Node.js, OAuth2.0, Docker, C#
+                </>
+              }
+            />
+          </Col>
+
           {/* Gnome Wars */}
           <Col md={4} className="project-card">
             <ProjectCard
@@ -128,7 +135,7 @@ function Projects() {
             />
           </Col>
 
-          {/* Vampire Fall
+          {/* Vampire Fall (uncommented) */}
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={emotion}
@@ -144,9 +151,9 @@ function Projects() {
                 </>
               }
             />
-          </Col> */}
+          </Col>
 
-          {/* Family Farm Sea Side 2D
+          {/* Family Farm Sea Side 2D (uncommented) */}
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={emotion}
@@ -162,26 +169,25 @@ function Projects() {
                 </>
               }
             />
-          </Col> */}
+          </Col>
 
-          {/* Murlan Card Game*/
+          {/* Fall Guys-Style Multiplayer Prototype (uncommented/fixed) */}
           <Col md={4} className="project-card">
-          <ProjectCard
-            imgPath={emotion}
-            isBlog={false}
-            videoLink="https://youtube.com/embed/TkMcvg1NYdA"
-            title="Fall Guys-Style Multiplayer Prototype"
-            description={
-              <>
-                <strong>Role:</strong> Developer<br />
-                Developed a real-time multiplayer platformer prototype, featuring costume syncing and physics-based obstacle synchronization. Implemented multiplayer systems and real-time synchronization.<br />
-                <strong>Tech Stack:</strong><br />
-                - Unity3D, Photon Quantum, Aavegotchi SDK, C#
-              </>
-            }
-          />
-        </Col>
-         }
+            <ProjectCard
+              imgPath={emotion}
+              isBlog={false}
+              videoLink="https://www.youtube.com/embed/TkMcvg1NYdA"
+              title="Fall Guys-Style Multiplayer Prototype"
+              description={
+                <>
+                  <strong>Role:</strong> Developer<br />
+                  Developed a real-time multiplayer platformer prototype, featuring costume syncing and physics-based obstacle synchronization. Implemented multiplayer systems and real-time synchronization.<br />
+                  <strong>Tech Stack:</strong><br />
+                  - Unity3D, Photon Quantum, Aavegotchi SDK, C#
+                </>
+              }
+            />
+          </Col>
         </Row>
       </Container>
     </Container>
