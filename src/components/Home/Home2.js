@@ -19,35 +19,31 @@ function Home2() {
     LET ME <span className="purple"> INTRODUCE </span> MYSELF
   </h1>
   <p className="home-about-body">
-    I am passionate about <b className="purple">game development</b> and creating interactive experiences through technology.
+    I am passionate about <b className="purple">game development</b> and building rich digital products with modern web technologies.
     <br />
     <br />
     I specialize in
     <i>
-      <b className="purple"> Unity (C#)</b>, <b className="purple">Three.js</b>, and <b className="purple">Node.js</b>,
+      <b className="purple"> Unity (C#)</b>, <b className="purple">.NET</b>, <b className="purple">React</b>, <b className="purple">Next.js</b>, and <b className="purple">Three.js</b>,
     </i>
-    building everything from immersive gameplay to scalable multiplayer backends.
+    delivering interactive gameplay, frontend experiences, and backend services.
     <br />
     <br />
-    My areas of interest include developing new
+    My work blends
     <i>
-      <b className="purple"> multiplayer games</b>, exploring cutting-edge
-      <b className="purple"> game development tools</b>, and crafting engaging player experiences.
+      <b className="purple">responsive web interfaces</b>, <b className="purple">server-side rendered apps</b>, and <b className="purple">real-time multiplayer systems</b>
     </i>
+    that are fast, scalable, and user-friendly.
     <br />
     <br />
-    I also have hands-on experience working with
+    I also build robust backend APIs with
     <i>
-      <b className="purple"> Unreal Engine</b>
+      <b className="purple">Node.js</b> and <b className="purple">.NET</b>
     </i>
-    for prototyping and
-    <b className="purple"> backend development</b> for games using
-    <i>
-      <b className="purple"> Node.js and C++</b>.
-    </i>
+    to support game services, cloud workflows, and data-driven applications.
     <br />
     <br />
-    I am constantly learning and pushing my skills further to create games that are innovative, scalable, and fun!
+    I am constantly learning and pushing my skills further to create software that is innovative, reliable, and fun.
   </p>
 </Col>
 
@@ -76,7 +72,7 @@ function Home2() {
               </li>
               {/*<li className="social-icons">*/}
               {/*  <a*/}
-              {/*    href="https://twitter.com/Soumyajit4419"*/}
+              {/*    href="https://twitter.com/Zabi1112"*/}
               {/*    target="_blank"*/}
               {/*    rel="noreferrer"*/}
               {/*    className="icon-colour  home-social-icons"*/}

@@ -11,30 +11,32 @@ function AboutCard() {
         Hello everyone! I’m <span className="purple">Zabi Ullah Warraich</span> from <span className="purple">Pakistan</span>.
         <br />
         <br />
-        I am currently working as a Senior Software Engineer at CLV Technologies and Salvay, with over <strong>5 years of professional experience</strong> in the gaming industry.
+        I am currently working as a Senior Software Engineer at <strong>Arcade Colony</strong>, with over <strong>6 years of professional experience</strong> delivering games, platforms, and web applications.
         <br />
         <br />
-        My core expertise lies in <strong>game development</strong> using <strong>Unity</strong> and <strong>C#</strong>, with a strong focus on creating dynamic multiplayer experiences. 
-        Alongside Unity, I also have <strong>hands-on experience with Unreal Engine</strong>, having built prototypes for client projects.
+        My core expertise lies in <strong>game development</strong> using <strong>Unity</strong> and <strong>C#</strong>, while also building powerful application backends and tools with <strong>.NET</strong>.
         <br />
         <br />
-        In addition to game development, I am skilled in <strong>backend development</strong> using <strong>Node.js</strong>, enabling me to create complete and scalable multiplayer infrastructures.
+        On the frontend, I design polished user experiences using <strong>React</strong> and <strong>Next.js</strong>, creating responsive interfaces, server-side rendering workflows, and production-ready web apps.
         <br />
         <br />
-        I am passionate about crafting high-quality, innovative gaming solutions that blend creativity with technology.
+        I also build scalable services with <strong>Node.js</strong> and real-time multiplayer infrastructures, giving me a strong full-stack perspective across games and software products.
+        <br />
+        <br />
+        I am passionate about crafting high-quality interactive solutions that combine gameplay, visuals, and architecture into one seamless experience.
       </p>
       <ul>
         <li className="about-activity">
           <ImPointRight /> Represented Pakistan in National Football Team
         </li>
         <li className="about-activity">
-          <ImPointRight /> Exploring and mastering new game technologies
+          <ImPointRight /> Building React & Next.js applications for modern web products
         </li>
         <li className="about-activity">
-          <ImPointRight /> Developing scalable multiplayer backends
+          <ImPointRight /> Developing backend APIs and services using .NET and Node.js
         </li>
         <li className="about-activity">
-          <ImPointRight /> Solving complex challenges in game development
+          <ImPointRight /> Designing scalable multiplayer systems and real-time game tools
         </li>
       </ul>
 
