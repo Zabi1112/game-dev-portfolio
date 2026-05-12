@@ -29,8 +29,7 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              videoLinks={[
-                "https://www.youtube.com/embed/7DBj2WDapJE",
+              videoLinks={[,
                 "https://www.youtube.com/embed/-FYtK0tjUKE",
               ]}
               title="Moon Karts"
